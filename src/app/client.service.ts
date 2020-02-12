@@ -9,7 +9,7 @@ import { Client } from './client';
 export class ClientService {
 
   private baseUrlAllClient = 'https://senduk-api.herokuapp.com/api/v1/client';
-  private baseUrlDeleteClient = 'https://senduk-api.herokuapp.com/api/v1/deleteClient';
+  private baseUrlDeleteClient = 'https://senduk-api.herokuapp.com/api/v1/deleteClient/';
   private baseUrlCreateClient = 'https://senduk-api.herokuapp.com/api/v1/createClient';
 
   private localbaseUrlAllClient = 'http://localhost:8181/api/v1/client/';
